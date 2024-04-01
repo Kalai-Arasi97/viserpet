@@ -1,0 +1,110 @@
+.footerlogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-top: 10px; */
+}
+.footericon{
+    font-size: 25px;
+    /* height: 40px;
+    width: 40px; */
+    color: rgb(131, 76, 76);
+    /* background-color: rgb(239, 228, 228); */
+
+    /* size={25}  */
+    /* style={{ fill: 'rgb(131, 76, 76)' }, {height=40px}, {width40px}}  */
+}
+/* .footerlogo i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(131, 76, 76);
+    background-color: rgb(239, 228, 228);
+    height: 40px;
+    width: 40px;
+} */
+.div191 img{
+    height: 40px;
+}
+.div191{
+    width: 20%;
+}
+.div191p{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 30px;
+}
+.div191p:hover{
+    color: rgb(131, 76, 76);
+}
+.footerh3{
+    font-family: 'Varela Round', sans-serif;
+    padding: 10px;
+}
+.footertxtbx{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.footertxtbx input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(242, 241, 241);
+    padding: 15px;
+}
+.footertxtbx p i{
+    font-size: 25px;    
+}
+.footertxtbx p i:hover{
+    color: rgb(131, 76, 76) ;
+}
+.footerp{
+    padding-left: 10px;
+}
+.footerp a{
+    color: black;
+    text-decoration: none;
+}
+.footerp a:hover{
+    color: rgb(131, 76, 76);
+}
+.div19{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div19cont{
+    height: 310px;
+    width: 94%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.divpagelink{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.div194{
+    width: 25%; 
+    height: 230px;
+}
+.subs{
+    padding: 10px;
+    line-height: 30px;
+}
+.subs:hover{
+    color: rgb(131, 76, 76);
+}
+.div20{
+    background-color:rgb(243, 238, 238);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div20 p{
+    color: rgb(88, 84, 84);
+}

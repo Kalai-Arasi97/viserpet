@@ -1,0 +1,149 @@
+
+.div05{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.div051{
+    width: 0%;
+}
+.div05cont{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.dealimg{
+    height: 500px;
+    width: 30%
+}
+.dealproductimg{
+    height: 500px;
+    width: 70%;
+}
+.div0611{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    width: 35%;
+}
+.div061 h1{
+    font-family: 'Varela Round', sans-serif;
+    /* padding: 10px; */
+}
+.div06{
+    position: relative;
+    right: 420px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.count{
+    height: 70px;
+    width: 70px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 100px;
+}
+.count:hover{
+    background-color:rgb(131, 76, 76) ;
+    color: white;
+}
+.countdown{
+    padding: 15px;
+}
+.dummy{
+    /* padding: 10px; */
+    font-size: 20px;
+}
+.shopnow1{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+}
+.shopnow1:hover{
+    background-color: rgb(131, 76, 76);
+    color: white;
+}
+.div06price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    font-size: 20px;
+    text-align: center;
+}
+.div061best{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    /* padding: 10px; */
+    color: rgb(131, 76, 76);
+}
+.blk{
+    text-decoration: line-through;
+    padding-bottom: 10px;
+}
+.brown{
+    color: rgb(131, 76, 76);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.div08cont{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div08{
+    text-align: center;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all{
+    height: 44px;
+    width: 70px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(131, 76, 76);
+    color: white;
+    border-radius: 25px;
+}
+.div08p{
+    height: 44px;
+    width: 70px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 23px;
+}
+.div08p:hover{
+    background-color:rgb(131, 76, 76) ;
+    color: white;
+}
+.smallpet{
+    height: 44px;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 23px;
+}
+.smallpet:hover{
+    background-color:rgb(131, 76, 76) ;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.carddiv1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carddiv2{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 20px;
+}

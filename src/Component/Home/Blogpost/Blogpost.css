@@ -1,0 +1,107 @@
+.latestimg{
+    height: 350px;
+    width: 350px;
+    object-fit: contain;
+}
+.latestimg:hover{
+    transform: scale(105%);
+    transition: 0.3s linear;
+}
+.latestp{
+    width: 350px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.latestname:hover{
+    color: rgb(131, 76, 76);
+}
+.latestp1{
+    width: 350px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+.div13{
+    height: 150px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color:rgb(239, 228, 228) ;
+}
+.div141{    
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.div14{
+    background-color:rgb(239, 228, 228) ;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.div16{
+    height: 130px;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    background-color:rgb(239, 228, 228) ;
+}
+.div16cont{
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div151{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.datep{
+    text-align: center;
+    font-size: 23px;
+}
+.divdate1{
+    padding-top: 12px;
+    height: 80px;
+    width: 80px;
+    background-color:rgb(239, 228, 228) ;
+    border-radius: 5px;
+    border: solid 5px;
+    border-color: white;
+    position: relative;
+    right: 35px;
+    bottom: 66px;
+}
+.divdate2{
+    padding-top: 12px;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 68px;
+    background-color:rgb(239, 228, 228) ;
+    border-radius: 5px;
+    border: solid 5px;
+    border-color: white;
+}
+.divdate3{
+    padding-top: 12px;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 65px;
+    left: 30px;
+    background-color:rgb(239, 228, 228) ;
+    border-radius: 5px;
+    border: solid 5px;
+    border-color: white;
+}
+.div15{
+    height: 20px;
+    background-color:rgb(239, 228, 228) ;
+}

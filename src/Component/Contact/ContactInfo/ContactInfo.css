@@ -1,0 +1,139 @@
+.contactdiv03p{
+    color: gray;
+    text-align: center;
+    /* padding-bottom: 10px; */
+}
+.contactdiv03h{
+    text-align: center;
+    /* padding-bottom: 10px; */
+}
+.contactdiv03img{
+    height: 90px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactdiv03img img{
+    height: 50px;
+    width: 40px;
+    object-fit: contain;
+}
+.contactdiv031{
+    height: 200px;
+    width: 320px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.contactdiv032{
+    height: 200px;
+    width: 320px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.contactdiv033{
+    height: 200px;
+    width: 320px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.contactdiv03cont{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactdiv04{
+    border-radius: 8px;
+    width: 87%;
+    height: 640px;
+    background-image: url(../../../Asset/contact-bg.png);
+    object-fit: fill;
+} 
+.contactdiv04cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactdiv041{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.contactdiv042cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contactdiv042{
+    height: 480px;
+    width: 76%;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+.contactdiv0421{
+    width: 100%;
+}
+.contactsendurmsg{
+    text-align: center; 
+    font-family: 'Varela Round', sans-serif;
+}
+.contactdiv0420cont{
+    width: 86%;
+    display: flex;
+    align-items: center;
+}
+.contactdiv042namep{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.contactdiv042namep-style{
+    color: red;
+}
+.contactneinput{
+    height: 40px;
+    width: 400px;
+    border: solid 1px;
+    border-color: lightgrey;
+} 
+.contacttxtarea{
+    width: 400px;
+    height: 120px;
+    border: solid 1px;
+    border-color: lightgrey;
+}
+
+.contactdiv05{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactdiv05 button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(131, 76, 76);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+
+.contactdiv06{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+} 
+.contactdiv06 iframe{
+    width: 100%;
+}

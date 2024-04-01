@@ -1,0 +1,138 @@
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2content{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 9999;
+    top: 50px;
+    background-color: rgb(131, 76, 76);
+}
+.list2 li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.list2p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 8px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px;     */
+}
+.list2p:hover{
+    color: rgb(131, 76, 76);
+}
+.list2 li img{
+    padding: 12px;
+}
+.bestproduct{
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+}
+.div012cont h1{
+    font-family: 'Varela Round', sans-serif;  
+    font-weight: bold;
+    padding: 10px;
+}
+.text012{
+    width: 280px;
+    color: gray;
+    font-size: 18px;
+    padding: 15px;
+}
+.shopnow{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+}
+.shopnow:hover{
+    background-color: rgb(131, 76, 76);
+    color: white;
+}
+.bannerimg{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.div012{
+    background-color: rgb(236, 224, 224);
+    width: 70%;
+    height: 375px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.div01{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div011
+{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div01center{
+    width: 10%;
+}
+.div01cont{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div02{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.div02cont{
+    width: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div02cont img{
+    width: 520px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.special{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: rgb(131, 76, 76);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.trending{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Varela Round', sans-serif; 
+}
+.div03{
+    height: 150px;
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
+}
+
+

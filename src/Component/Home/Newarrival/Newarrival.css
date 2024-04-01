@@ -1,0 +1,21 @@
+.carddiv1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carddiv2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.div10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.div10 img{
+    object-fit: cover;
+    width: 80%;
+}

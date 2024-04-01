@@ -1,0 +1,25 @@
+.div12cont{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div12{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div121{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div121img img{
+    object-fit: contain;
+    height: 40px;
+    width: 100px;  
+} 

@@ -1,0 +1,41 @@
+.productdiv01cont{
+    position: relative; 
+    width: 100%; 
+    height: 350px;
+    z-index: -1;
+}
+.productdiv01cont::before {
+    content: ""; 
+    background-color: rgba(63, 61, 61, 0.596); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+.productdogbgimg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productdiv01{
+    height: 350px;
+    display: flex;
+    align-items: start;
+}
+.productheadh1{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.productheadp{
+    color: white; 
+}
+.productdiv02{
+    text-align: center;
+    bottom: 220px;
+    position: relative;
+}

@@ -1,0 +1,223 @@
+.productdivcategory{
+    height: 240px;
+}
+.productline{
+    border: solid 1.5px;
+    width: 45px;
+    color: rgb(131, 76, 76);
+}
+.productlefthead{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.productcheck1{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.productcheck2{
+    padding-bottom: 10px;
+}
+.productcheck3{
+    padding-bottom: 10px;
+}
+.productcheck4{
+    padding-bottom: 10px;
+}
+.productcheck5{
+    padding-bottom: 10px;
+}
+.productfilter{
+    height: 210px;
+}
+.productpricerange{
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.productfilterbtn{
+    height: 35px;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(131, 76, 76);
+    color: white;
+    font-size: 15px;
+}
+.productdivcolor{
+    height: 290px;
+}
+.productdivbestseller01{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productdivbestseller02{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productdivbestseller03{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productdivbsimg img{
+    height: 60px;
+    width: 40px;
+}
+.productdivbstxtbrown{
+    color: rgb(131, 76, 76);
+}
+.productdivbestseller{
+    height: 430px;
+}
+.productdivbrand{
+    height: 290px;
+}
+.productblackfriday{
+    height: 230px;
+} 
+.productblackfriday img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.productdivleft{
+    width: 250px;
+}
+.productdivproprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.productprice{
+    color: black;
+}
+.productstrike{
+    padding-right: 8px;
+    text-decoration: line-through; 
+    color: gray;
+}
+.productdivprostar{
+    color:rgb(131, 76, 76) ;
+    padding: 10px;
+}
+.productproname:hover{
+    color:rgb(131, 76, 76) ;   
+}
+.productproimg{
+    padding: 10px;
+    object-fit: cover;
+    height: 200px;
+    width: 100px;
+}
+.productproimg:hover{
+    transform: scale(105%);
+    transition: 0.3s linear;
+}
+.productproname{
+    padding: 10px;
+    color: black;
+}
+.productcart{
+    font-size: 15px;
+    height: 35px;
+    width: 110px;
+    border-radius: 18px;
+    border-style: none;
+    background-color: rgb(131, 76, 76);
+    color: white;
+}
+.productcoco{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productmoderna{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productbonacibo{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productnaughty{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productproimg1{
+    padding: 10px;
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
+.productproimg1:hover{
+    transform: scale(105%);
+    transition: 0.3s linear;
+}
+.productdrools{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productmeat{
+    font-family:"Roboto", sans-serif;
+    height: 480px;
+    width: 260px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.productdivright{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.productdivmaincontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.productdivleftright{
+    width: 84%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.productdivnumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
