@@ -6,18 +6,10 @@ import Marquee from '../Component/Home/Marquee/Marquee'
 import Shipping from '../Component/Home/Shipping/Shipping'
 import Footer from '../Component/Footer/Footer'
 import AboutImages from '../Component/About/AboutImages/AboutImages'
-// import AboutImages from '../Component/About/AboutImages/AboutImages'
-
-
-// import Pages from '../Component/Navbar/Pages/Pages'
-// import Shop from '../Component/Navbar/Shop/Shop'
-// import Newarrivals from '../Component/Navbar/Newarrivals/Newarrivals'
-// import Contact from '../Component/Navbar/Contact/Contact'
 
 const About = () => {
   return (
     <div>
-        {/* <h1>About</h1> */}
         <Navbar/>
         <AboutFirst/>
         <Testimonial/>
@@ -25,8 +17,6 @@ const About = () => {
         <AboutImages/>
         <Shipping/>
         <Footer/>
-       
-     
     </div>
   )
 }

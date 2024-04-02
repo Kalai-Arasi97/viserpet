@@ -6,16 +6,14 @@ import "./FirstDiv.css";
 const FirstDiv = () => {
   return (
     <div>
-      <div class="contactdiv01">
-            <div class="contactdiv01cont">
-            <img className='contactdogbgimg' src = {breadcumbimg}/>
-
-                {/* <img class="dogbgimg" src="../Assets/Img/breadcumb-img.png" alt="">  */}
+      <div className="contactdiv01">
+            <div className="contactdiv01cont">
+              <img className='contactdogbgimg' src = {breadcumbimg} alt=''/>
             </div>
         </div>
-        <div class="contactdiv02">
-            <h1 class="contactheadh1">Contact Us</h1>
-            <p class="contactheadp"><IoHome /> Home / Contact Us</p>
+        <div className="contactdiv02">
+            <h1 className="contactheadh1">Contact Us</h1>
+            <p className="contactheadp"><IoHome /> Home / Contact Us</p>
         </div>
     </div>
   );

@@ -26,21 +26,18 @@
 .div17{
     height: 230px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 .div18head{
     font-size: 15px;
-    /* padding-top: 10px; */
     text-align: center;
     padding-left: 20px;
     color: white;
-    /* padding-top: 15px; */
     font-family: "Nunito", sans-serif;
 }
 .div18p{
     color: white;
     text-align: center;
-    /* padding-top: 10px; */
     padding-left: 20px;
     font-family: "Nunito", sans-serif;
 }

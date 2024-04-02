@@ -15,17 +15,13 @@ const Router = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          
-          {/* <Switch> */}
-             {/* <Route path='/about' element={<About/>} /> */}
-            <Route path="/" element={<Main/>}/>
-             <Route path="/register" element={<RegistrationPage/>}/>
-             <Route path='/login' element={<Login/>} />
-            <Route path='/about' element={<About/>}/>
-            <Route path="/product" element={<Product/>}/>
-            <Route path="/blog" element={<Blog/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-          {/* </Switch> */}
+          <Route path="/" element={<Main/>}/>
+          <Route path="/register" element={<RegistrationPage/>}/>
+          <Route path='/login' element={<Login/>} />
+          <Route path='/about' element={<About/>}/>
+          <Route path="/product" element={<Product/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     </div>

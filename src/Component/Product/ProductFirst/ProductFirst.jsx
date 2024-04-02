@@ -6,16 +6,14 @@ import "./ProductFirst.css"
 const ProductFirst = () => {
   return (
     <div>
-       <div class="productdiv01">
-            <div class="productdiv01cont">
-            <img className='productdogbgimg' src = {breadcumbimg}/>
-
-                {/* <img class="dogbgimg" src="../Assets/Img/breadcumb-img.png" alt="">  */}
+       <div className="productdiv01">
+            <div className="productdiv01cont">
+              <img className='productdogbgimg' src = {breadcumbimg} alt=''/>
             </div>
         </div>
-        <div class="productdiv02">
-            <h1 class="productheadh1">Product</h1>
-            <p class="productheadp"><IoHome /> Home / Product</p>
+        <div className="productdiv02">
+            <h1 className="productheadh1">Product</h1>
+            <p className="productheadp"><IoHome /> Home / Product</p>
         </div>
     </div>
   )

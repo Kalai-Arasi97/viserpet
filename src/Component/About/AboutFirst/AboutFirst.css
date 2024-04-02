@@ -23,7 +23,7 @@
 .aboutdiv01{
     height: 350px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 .aboutheadh1{
     font-family: 'Varela Round', sans-serif;
@@ -95,15 +95,6 @@
     padding-top: 18px;
     color: rgb(131, 76, 76);
 }
-/* .aboutdiv032point2 i{
-    color: rgb(131, 76, 76);
-}
-.aboutdiv032point3 i{
-    color: rgb(131, 76, 76);
-}
-.aboutdiv032point4 i{
-    color: rgb(131, 76, 76);
-} */
 .aboutdiv032point2{
     width: 186px;
     display: flex;
@@ -201,7 +192,7 @@
 .aboutdiv04{
     height: 400px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 .aboutdiv051{
     width: 330px;
@@ -216,7 +207,6 @@
     justify-content: center;
 }
 .aboutdiv051 h3{
-    /* padding: 10px; */
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
@@ -226,7 +216,6 @@
     justify-content: center;
 }
 .aboutdiv051 p{
-    /* padding-bottom: 5px; */
     color: gray;
     text-align: center;
 }
@@ -243,7 +232,6 @@
     justify-content: center;
 }
 .aboutdiv052 h3{
-    /* padding: 10px; */
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
@@ -253,7 +241,6 @@
     justify-content: center;
 }
 .aboutdiv052 p{
-    /* padding-bottom: 5px; */
     color: gray;
     text-align: center;
 }
@@ -270,7 +257,6 @@
     justify-content: center;
 }
 .aboutdiv053 h3{
-    /* padding: 10px; */
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
@@ -280,7 +266,6 @@
     justify-content: center;
 }
 .aboutdiv053 p{
-    /* padding-bottom: 5px; */
     color: gray;
     text-align: center;
 }

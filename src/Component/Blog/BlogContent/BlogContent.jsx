@@ -20,202 +20,168 @@ import "./BlogContent.css"
 const BlogContent = () => {
   return (
     <div>
-          <div class="blogdivmaincontent">
-        <div class="blogdivleftright">
-            <div class="blogdivleft">
-                <div class="blogdivl01">
+          <div className="blogdivmaincontent">
+        <div className="blogdivleftright">
+            <div className="blogdivleft">
+                <div className="blogdivl01">
                     <input type="text"  placeholder="Email Address" />
                 </div>
-                <div class="blogdivl02">
-                    <p class="bloglefthead">Category</p>
-                    <p class="blogline"></p>
-                    <p class="blogcate">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                <div className="blogdivl02">
+                    <p className="bloglefthead">Category</p>
+                    <p className="blogline"></p>
+                    <p className="blogcate">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">Cat Food (5)</a>
                     </p>
-                    <p class="blogcate">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogcate">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">Accessories (20)</a>
                     </p>
-                    <p class="blogcate">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogcate">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">Pet Training (18)</a>
                     </p>
-                    <p class="blogcate">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogcate">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">Veterinary (02)</a>
                     </p>
                 </div>
-                <div class="blogdivl03">
-                    <p class="bloglefthead">Popular Post</p>
-                    <p class="blogline"></p> 
-                    <div class="blogdivpoppost01">
-                        <div class="blogdivppimg">
-                            <img  src = {blog04}/>
+                <div className="blogdivl03">
+                    <p className="bloglefthead">Popular Post</p>
+                    <p className="blogline"></p> 
+                    <div className="blogdivpoppost01">
+                        <div className="blogdivppimg">
+                            <img  src = {blog04} alt=''/>
                         </div>
-                        <div class="blogdivpptxt">
-                            <h5 class="blogdivpptxth">Analysing Potential Problem</h5>
-                            <p class="blogdivpptxtp">August 25 2021</p>
+                        <div className="blogdivpptxt">
+                            <h5 className="blogdivpptxth">Analysing Potential Problem</h5>
+                            <p className="blogdivpptxtp">August 25 2021</p>
                         </div>
                     </div>
-                    <div class="blogdivpoppost02">
-                        <div class="blogdivppimg">
-                            <img  src = {blog05}/>
+                    <div className="blogdivpoppost02">
+                        <div className="blogdivppimg">
+                            <img  src = {blog05} alt=''/>
                         </div>
-                        <div class="blogdivpptxt">
-                            <h5 class="blogdivpptxth">Wherefore always free from repetiti</h5>
-                            <p class="blogdivpptxtp">August 25 2021</p>
+                        <div className="blogdivpptxt">
+                            <h5 className="blogdivpptxth">Wherefore always free from repetiti</h5>
+                            <p className="blogdivpptxtp">August 25 2021</p>
                         </div>
                     </div> 
-                    <div class="blogdivpoppost03">
-                        <div class="blogdivppimg">
-                            <img  src = {blog06}/>
-
-                            {/* <img src="../Assets/Img/blog06.png" alt=""> */}
+                    <div className="blogdivpoppost03">
+                        <div className="blogdivppimg">
+                            <img  src = {blog06} alt=''/>
                         </div>
-                        <div class="blogdivpptxt">
-                            <h5 class="blogdivpptxth">Eum soluta nobis gendi cumque</h5>
-                            <p class="blogdivpptxtp">August 25 2021</p>
+                        <div className="blogdivpptxt">
+                            <h5 className="blogdivpptxth">Eum soluta nobis gendi cumque</h5>
+                            <p className="blogdivpptxtp">August 25 2021</p>
                         </div>
                     </div>                  
                 </div>
-                <div class="blogdivl04">
-                    <p class="bloglefthead">Archives</p>
-                    <p class="blogline"></p>
-                    <p class="blogarch">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                <div className="blogdivl04">
+                    <p className="bloglefthead">Archives</p>
+                    <p className="blogline"></p>
+                    <p className="blogarch">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">May 2000</a>
                     </p>
-                    <p class="blogarch">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogarch">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">June 2008</a>
                     </p>
-                    <p class="blogarch">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogarch">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">August 2010</a>
                     </p>
-                    <p class="blogarch">
-                        <i class="fa-sharp fa-solid fa-angle-right"></i>
+                    <p className="blogarch">
+                        <i className="fa-sharp fa-solid fa-angle-right"></i>
                         <a href="/blog">December 2021</a>
                     </p>
                 </div>
-                <div class="blogdivl05">
-                    <p class="bloglefthead">Tags</p>
-                    <p class="blogline"></p>
-                    <div class="blogdiv05tag1">
-                        <a href=""><p class="blogtag1">Baber</p></a>
-                        <a href=""><p class="blogtag2">Food</p></a>
-                        <a href=""><p class="blogtag3">Cat</p></a>
+                <div className="blogdivl05">
+                    <p className="bloglefthead">Tags</p>
+                    <p className="blogline"></p>
+                    <div className="blogdiv05tag1">
+                        <a href="/blog"><p className="blogtag1">Baber</p></a>
+                        <a href="/blog"><p className="blogtag2">Food</p></a>
+                        <a href="/blog"><p className="blogtag3">Cat</p></a>
                     </div>
-                    <div class="div05tag2">
-                        <a href=""><p class="blogtag4">Dog Food</p></a>
-                        {/* <a href=""><p class="blogtag5">Cat</p></a> */}
+                    <div className="div05tag2">
+                        <a href="/blog"><p className="blogtag4">Dog Food</p></a>
                     </div>
                 </div>
-                <div class="blogdivl06">
-                    <p class="bloglefthead">Instagram</p>
-                    <p class="blogline"></p>
-                    <div class="blogdiv06imgs">
-            <img  src = {blog06}/>
-            <img  src = {blog07}/>
-            <img  src = {blog08}/>
-            <img  src = {blog09}/>
-            <img  src = {blog10}/>
-            <img  src = {blog11}/>
-
-                        {/* <img src="../Assets/Img/blog06.png" alt="">
-                        <img src="../Assets/Img/blog07.png" alt="">
-                        <img src="../Assets/Img/blog08.png" alt="">
-                        <img src="../Assets/Img/blog09.png" alt="">
-                        <img src="../Assets/Img/blog10.png" alt="">
-                        <img src="../Assets/Img/blog11.png" alt=""> */}
+                <div className="blogdivl06">
+                    <p className="bloglefthead">Instagram</p>
+                    <p className="blogline"></p>
+                    <div className="blogdiv06imgs">
+                        <img  src = {blog06} alt=''/>
+                        <img  src = {blog07} alt=''/>
+                        <img  src = {blog08} alt=''/>
+                        <img  src = {blog09} alt=''/>
+                        <img  src = {blog10} alt=''/>
+                        <img  src = {blog11} alt=''/>
                     </div>
                 </div>
             </div>
-            <div class="blogdivright">
-                <div class="blogdivr01">
+            <div className="blogdivright">
+                <div className="blogdivr01">
                     <a href="https://youtu.be/Pw1oo5xZYAI?si=Vm0s2fhFiKEIEu0M">
-                    <img className='blogdivrimg1' src = {blog}/>
-
-                    {/* <img class="divrimg1" src="../Assets/Img/13blog.jpg" alt=""> */}
+                    <img className='blogdivrimg1' src = {blog} alt=''/>
                     </a>
-                    <h2 class="blogdivrh2">Your Dog Incredible Sense of Hearing</h2>
-                    <p class="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
-                    <p class="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
+                    <h2 className="blogdivrh2">Your Dog Incredible Sense of Hearing</h2>
+                    <p className="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
+                    <p className="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
                         art directors, manga artists, comic book artists, graffiti artists, and nowanyone
                         who arranges words.......</p>
-                    <div class="blogdivrsociallogo">
+                    <div className="blogdivrsociallogo">
                         <FaFacebookF className='blogdivrsociallogoi'/>
                         <FaTwitter className='blogdivrsociallogoi2'/>
                         <FaLinkedinIn className='blogdivrsociallogoi'/>
-                        {/* <i class="fa-brands fa-facebook-f"></i> */}
-                        {/* <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i> */}
                     </div>
                 </div>
-                <div class="blogdivr02">
-                    <img className='blogdivrimg' src = {blog12}/>
-
-                    {/* <img class="divrimg" src="../Assets/Img/blog12.png" alt=""> */}
-                    
-                    <h2 class="blogdivrh2">Training For Pets To Behave Like</h2>
-                    <p class="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
-                    <p class="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
+                <div className="blogdivr02">
+                    <img className='blogdivrimg' alt='' src = {blog12}/>
+                    <h2 className="blogdivrh2">Training For Pets To Behave Like</h2>
+                    <p className="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
+                    <p className="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
                         art directors, manga artists, comic book artists, graffiti artists, and nowanyone
                         who arranges words.......</p>
-                    <div class="blogdivrsociallogo">
+                    <div className="blogdivrsociallogo">
                         <FaFacebookF className='blogdivrsociallogoi'/>
                         <FaTwitter className='blogdivrsociallogoi2'/>
                         <FaLinkedinIn className='blogdivrsociallogoi'/>
-
-                        {/* <i class="fa-brands fa-facebook-f"></i> */}
-                        {/* <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i> */}
                     </div>   
                 </div>
-                <div class="blogdivr03">
-                    <img className='blogdivrimg' src = {blog14}/>
-
-                    {/* <img class="divrimg" src="../Assets/Img/blog14.png" alt=""> */}
-                    <h2 class="blogdivrh2">A Discount Cartridge Is Better Ever </h2>
-                    <p class="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
-                    <p class="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
+                <div className="blogdivr03">
+                    <img className='blogdivrimg' src = {blog14} alt=''/>
+                    <h2 className="blogdivrh2">A Discount Cartridge Is Better Ever </h2>
+                    <p className="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
+                    <p className="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
                         art directors, manga artists, comic book artists, graffiti artists, and nowanyone
                         who arranges words.......</p>
-                    <div class="blogdivrsociallogo">
+                    <div className="blogdivrsociallogo">
                         <FaFacebookF className='blogdivrsociallogoi'/>
                         <FaTwitter className='blogdivrsociallogoi2'/>
                         <FaLinkedinIn className='blogdivrsociallogoi'/>
-
-                        {/* <i class="fa-brands fa-facebook-f"></i> */}
-                        {/* <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i> */}
                     </div>
                 </div>
-                <div class="blogdivr04">
-                    <img className='blogdivrimg' src = {blog15}/>
-
-                    {/* <img class="divrimg" src="../Assets/Img/blog15.png" alt=""> */}
-                    <h2 class="blogdivrh2">Work Hard & Gain Success</h2>
-                    <p class="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
-                    <p class="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
+                <div className="blogdivr04">
+                    <img className='blogdivrimg' src = {blog15} alt=''/>
+                    <h2 className="blogdivrh2">Work Hard & Gain Success</h2>
+                    <p className="blogdivrp1">By: Jon gulasu / 2 may,2022</p>
+                    <p className="blogdivrp2">Typography is the work of typesetters, compositors, typographers, graphic designers,
                         art directors, manga artists, comic book artists, graffiti artists, and nowanyone
                         who arranges words.......</p>
-                    <div class="blogdivrsociallogo">
+                    <div className="blogdivrsociallogo">
                         <FaFacebookF className='blogdivrsociallogoi'/>
                         <FaTwitter className='blogdivrsociallogoi2'/>
                         <FaLinkedinIn className='blogdivrsociallogoi'/>
-
-                        {/* <i class="fa-brands fa-facebook-f"></i> */}
-                        {/* <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i> */}
                     </div>
                 </div>
-                <div class="blogdivr05">
-                    <p class="blogdivr05p">01</p>
-                    <p class="blogdivr05p">02</p>
-                    <p class="blogdivr05p">03</p>
-                    <i class="fa-sharp fa-solid fa-angle-right"></i>
+                <div className="blogdivr05">
+                    <p className="blogdivr05p">01</p>
+                    <p className="blogdivr05p">02</p>
+                    <p className="blogdivr05p">03</p>
+                    <i className="fa-sharp fa-solid fa-angle-right"></i>
                 </div>
             </div>
         </div>

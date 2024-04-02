@@ -42,75 +42,70 @@ const ContactInfo = () => {
 
   return (
     <div>
-      <div class="contactdiv03">
-            <div class="contactdiv03cont">
-                <div class="contactdiv031">
-                    <div class="contactdiv03img">
-                        <img src = {contact01}/>
-                        {/* <img src="../Assets/Img/contact01.png" alt=""> */}
+      <div className="contactdiv03">
+            <div className="contactdiv03cont">
+                <div className="contactdiv031">
+                    <div className="contactdiv03img">
+                        <img src = {contact01} alt=''/>
                     </div>
-                    <div class="contactdiv03txt">
-                        <h4 class="contactdiv03h">000 - 8888 - 9999</h4>
-                        <p class="contactdiv03p">Accompanied By English versions</p>
-                    </div>
-                </div>
-                <div class="contactdiv032">
-                    <div class="contactdiv03img">
-                        <img  src = {contact02}/>
-                    </div>
-                    <div class="contactdiv03txt">
-                        <h4 class="contactdiv03h">102 Street 2714 Donovan</h4>
-                        <p class="contactdiv03p">including versions of Lorem Ipsum</p>
+                    <div className="contactdiv03txt">
+                        <h4 className="contactdiv03h">000 - 8888 - 9999</h4>
+                        <p className="contactdiv03p">Accompanied By English versions</p>
                     </div>
                 </div>
-                <div class="contactdiv033">
-                    <div class="contactdiv03img">
-                        <img  src = {contact03}/>
+                <div className="contactdiv032">
+                    <div className="contactdiv03img">
+                        <img  src = {contact02} alt=''/>
                     </div>
-                    <div class="contactdiv03txt">
-                        <h4 class="contactdiv03h">Info123@Gmail.com</h4>
-                        <p class="contactdiv03p">including versions of Lorem Ipsum</p>
+                    <div className="contactdiv03txt">
+                        <h4 className="contactdiv03h">102 Street 2714 Donovan</h4>
+                        <p className="contactdiv03p">including versions of Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div className="contactdiv033">
+                    <div className="contactdiv03img">
+                        <img  src = {contact03} alt=''/>
+                    </div>
+                    <div className="contactdiv03txt">
+                        <h4 className="contactdiv03h">Info123@Gmail.com</h4>
+                        <p className="contactdiv03p">including versions of Lorem Ipsum</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="contactdiv04cont">
-            <div class="contactdiv04">
-                <div class="contactdiv041">
-                    <div class="contactdiv041img">
-                        <img src = {contact031}/>
-
-                        {/* <img src="../Assets/Img/contact03 (1).png" alt=""> */}
+        <div className="contactdiv04cont">
+            <div className="contactdiv04">
+                <div className="contactdiv041">
+                    <div className="contactdiv041img">
+                        <img src = {contact031} alt=''/>
                     </div>
-                    <div class="contactdiv041img">
-                        
-                    </div>
-                    <div class="contactdiv041img">
-                        <img src = {contact04}/>
+                    <div className="contactdiv041img">
 
-                        {/* <img src="../Assets/Img/contact04.png" alt=""> */}
+                    </div>
+                    <div className="contactdiv041img">
+                        <img src = {contact04} alt=''/>
                     </div>
                 </div>
-                <div class="contactdiv042cont">
-                    <div class="contactdiv042">
-                        <div class="contactdiv0420cont">
-                            <div class="contactdiv0421">
-                                <h2 class="contactsendurmsg">Send Your Message</h2> 
-                                <p class="contactdiv042namep">
+                <div className="contactdiv042cont">
+                    <div className="contactdiv042">
+                        <div className="contactdiv0420cont">
+                            <div className="contactdiv0421">
+                                <h2 className="contactsendurmsg">Send Your Message</h2> 
+                                <p className="contactdiv042namep">
                                     Your Name 
-                                    <span class="contactdiv042namep-style">*</span>
+                                    <span className="contactdiv042namep-style">*</span>
                                 </p>
-                                <input class="contactneinput" type="text" 
+                                <input className="contactneinput" type="text" 
                                 value={name} onChange={handleNameChange}/>    
-                                <p class="contactdiv042namep">
+                                <p className="contactdiv042namep">
                                     Email Address 
-                                    <span class="contactdiv042namep-style">*</span>
+                                    <span className="contactdiv042namep-style">*</span>
                                 </p>
-                                <input class="contactneinput" type="text" 
+                                <input className="contactneinput" type="text" 
                                 value={email} onChange={handleEmailChange}/>
-                                <p class="contactdiv042namep">Your Message</p>
-                                <textarea class="contacttxtarea" name="" id="" cols="30" rows="10"
+                                <p className="contactdiv042namep">Your Message</p>
+                                <textarea className="contacttxtarea" name="" id="" cols="30" rows="10"
                                 value={message} onChange={handleMessageChange}></textarea>
                             </div>
                         </div>
@@ -119,10 +114,9 @@ const ContactInfo = () => {
             </div>
         </div>
 
-        <div class="contactdiv05">
+        <div className="contactdiv05">
             <button onClick={handleSubmit}>Send Your Message</button>
         </div>
-
 
         <div className="contactdiv06">
             <iframe
@@ -133,6 +127,7 @@ const ContactInfo = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="Map of Burj Khalifa location"
             ></iframe>
         </div>
         

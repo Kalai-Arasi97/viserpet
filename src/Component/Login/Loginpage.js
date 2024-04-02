@@ -1,21 +1,15 @@
 import React, { useState } from 'react'
-
 import catdog from "../../Asset/catdog.jpg"
 import "./Loginpage.css"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
-// import {emailValidator, passwordValidator} from "../../Component/regexValidator"
 const Loginpage = () => {
-
 
     const navigate = useNavigate();
     const [uemail, setEmail] = useState('');
     const [upassword, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState('');
-
-
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -34,13 +28,10 @@ const Loginpage = () => {
             })
     }
 
-    
-    
-
   return (
     <div className='body'>
-        <div class="login-container">
-            <img className='catdog' src = {catdog}/>
+        <div className="login-container">
+            <img className='catdog' src = {catdog} alt=''/>
             {errorMessage.length >0 && (
                 <div style = {{marginBottom: "10px", color:"red"}}>
                     {errorMessage}
@@ -53,13 +44,13 @@ const Loginpage = () => {
             )}
             <h2>Login</h2>
         <form > 
-            <div class="form-group">
+            <div className="form-group">
                 <label for="email">Email </label>
                 <input type="text" id="uemail" name="uemail" 
                 value={uemail}
                 onChange={e => setEmail(e.target.value)}/>
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="password">Password</label>
                 <input type="password" id="upassword" name="upassword" 
                 value={upassword}
@@ -70,7 +61,7 @@ const Loginpage = () => {
                     <a href='/register'>New User to Sign In?</a>
                 </p>
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <button type="submit" onClick={handleLogin}>Login</button>
                 {errorMessage && <p>{errorMessage}</p>}
             </div>
@@ -79,8 +70,4 @@ const Loginpage = () => {
     </div>
   )
 }
-// const formSubmitter = e =>{
-//     if(input.username !== "Kalai" || input.password !== "Kalai" ) return alert("No user Found");
-//   }
-
 export default Loginpage

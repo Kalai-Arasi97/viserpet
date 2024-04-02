@@ -7,62 +7,56 @@ import "./Blogpost.css"
 const Blogpost = () => {
   return (
     <div>
-      <div class="div13">
-            <div class="div13cont">
-                <p class="special">Blog Post</p>
-                <h2 class="trending">Latest news post</h2>
+      <div className="div13">
+            <div className="div13cont">
+                <p className="special">Blog Post</p>
+                <h2 className="trending">Latest news post</h2>
             </div>
         </div>
-        <div class="div14">
-            <div class="div141">
-                <div class="div141img1">
-                    <img className='latestimg' src = {blog03}/>
-
-                    {/* <img class="latestimg" src="./Assets/Img/blog03.png" alt=""> */}
+        <div className="div14">
+            <div className="div141">
+                <div className="div141img1">
+                    <img className='latestimg' src = {blog03} alt=''/>
                 </div>
-                <div class="div141img2">
-                    <img className='latestimg' src = {blog01}/>
-
-                    {/* <img class="latestimg" src="./Assets/Img/blog01.png" alt=""> */}
+                <div className="div141img2">
+                    <img className='latestimg' src = {blog01} alt=''/>
                 </div>
-                <div class="div141img3">
-                    <img className='latestimg' src = {blog02}/>
-
-                    {/* <img class="latestimg" src="./Assets/Img/blog02.png" alt=""> */}
+                <div className="div141img3">
+                    <img className='latestimg' src = {blog02} alt=''/>
                 </div>
             </div>
         </div>
-        <div class="div15">
-            <div class="div15cont">
-                <div class="div151">
-                    <div class="divdate1">
-                        <p class="datep">18</p>
-                        <p class="datep">May</p>
+        <div className="div15">
+            <div className="div15cont">
+                <div className="div151">
+                    <div className="divdate1">
+                        <p className="datep">18</p>
+                        <p className="datep">May</p>
                     </div>
-                    <div class="divdate2">
-                        <p class="datep">22</p>
-                        <p class="datep">May</p>
+                    <div className="divdate2">
+                        <p className="datep">22</p>
+                        <p className="datep">May</p>
                     </div>
-                    <div class="divdate3">
-                        <p class="datep">29</p>
-                        <p class="datep">May</p>
+                    <div className="divdate3">
+                        <p className="datep">29</p>
+                        <p className="datep">May</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="div16">
-            <div class="div16cont">
-                <div class="latestname1">
-                    <p class="latestp">Amet Occumsan Fringilla Molestie</p>
-                    <p class="latestp1">Urna Hendrerit</p>
+        <div className="div16">
+            <div className="div16cont">
+                <div className="latestname1">
+                    <p className="latestp">Amet Occumsan Fringilla Molestie</p>
+                    <p className="latestp1">Urna Hendrerit</p>
                 </div>
-                <div class="latestname2">
-                    <p class="latestp">Maecenas Sed Facilisis Ipsum. Duis</p>
-                    <p class="latestp1">Scelerisque Mi Magna</p>
+                <div className="latestname2">
+                    <p className="latestp">Maecenas Sed Facilisis Ipsum. Duis</p>
+                    <p className="latestp1">Scelerisque Mi Magna</p>
                 </div>
-                <div class="latestname3">
-                    <p class="latestp">Wenean Vitae Portttitor Tempor</p>
-                    <p class="latestp1">Posuere Nisl</p>
+                <div className="latestname3">
+                    <p className="latestp">Wenean Vitae Portttitor Tempor</p>
+                    <p className="latestp1">Posuere Nisl</p>
                 </div>
             </div>
         </div>

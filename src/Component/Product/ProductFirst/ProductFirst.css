@@ -23,7 +23,7 @@
 .productdiv01{
     height: 350px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 .productheadh1{
     font-family: 'Varela Round', sans-serif;

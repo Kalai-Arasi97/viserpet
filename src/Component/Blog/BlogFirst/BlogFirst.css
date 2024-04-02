@@ -26,7 +26,7 @@
 .blogdiv01{
     height: 350px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 .blogheadh1{
     font-family: 'Varela Round', sans-serif;

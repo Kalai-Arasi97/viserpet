@@ -42,8 +42,6 @@ const Trending = () => {
         strike = "$300"
         cart = "Add To Cart"
         />
-
-
         <Card
         proimg = {product05}
         proname = "Coco Kat Kitten Milk"

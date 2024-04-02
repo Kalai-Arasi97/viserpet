@@ -23,3 +23,28 @@
     height: 40px;
     width: 100px;  
 } 
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .div121img {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  

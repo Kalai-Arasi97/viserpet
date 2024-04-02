@@ -6,39 +6,55 @@ import "./Marquee.css"
 const Marquee = () => {
   return (
     <div>
-      <div class="div12cont">
-            <div class="div12">
-                <marquee behavior="" direction="">
-                    <div class="div121">
-                        <div class="div121img">
-                            <img className='client4' src={client4}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client3' src={client3}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client1' src={client1}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client4' src={client4}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client3' src={client3}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client1' src={client1}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client4' src={client4}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client3' src={client3}/>
-                        </div>
-                        <div class="div121img">
-                            <img className='client1' src={client1}/>
-                        </div>
+      <div className="div12cont">
+        <div className="div12">
+            <div className="marquee-container">
+                <div className="marquee">
+                    <div className="div121img">
+                        <img className='client4' src={client4} alt=''/>
                     </div>
-                </marquee>
+                    <div className="div121img">
+                        <img className='client3' src={client3} alt=''/>
+                    </div>
+                    <div className="div121img">
+                            <img className='client1' src={client1} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client4' src={client4} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client3' src={client3} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client1' src={client1} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client4' src={client4} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client3' src={client3} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client1' src={client1} alt=''/>
+                        </div>
+                    {/* Add more images as needed */}
+                </div>
+            </div>
+
+
+
+
+                {/* <marquee behavior="" direction="">
+                    <div className="div121">
+                        <div className="div121img">
+                            <img className='client4' src={client4} alt=''/>
+                        </div>
+                        <div className="div121img">
+                            <img className='client3' src={client3} alt=''/>
+                        </div>
+                        
+                    </div>
+                </marquee> */}
             </div>
         </div>
     </div>

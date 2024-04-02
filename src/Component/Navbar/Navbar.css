@@ -62,7 +62,6 @@
     width: 90px; 
     border-radius: 5px;
 } 
-
 .list li{
     list-style: none;
     color: white;
@@ -97,8 +96,6 @@
     top: 50px;
     background-color: rgb(131, 76, 76);
 }
-
-
 .texticon {
     padding-left: 20px;
     padding-top: 10px;
@@ -122,15 +119,6 @@
     padding-bottom: 5px;
     padding-top: 10px;
 }
-/* .iconhov {
-    display: inline-block;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-.acc-style{
-    color: rgb(131, 76, 76);
-} */
 .logbtn{
     border: none;
     border-radius: 30px;

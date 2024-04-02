@@ -11,14 +11,12 @@ const Testimonial = () => {
 
             </div>
             <div className="div111cont">
-                <img className='doublequotes' src = {ticon}/>
-
-            {/* <img class="doublequotes" src ={testimonial} alt=""> */}
-                <p class="customerquotes">A great about us block helps builds trubetween
+                <img className='doublequotes' src = {ticon} alt=''/>
+                <p className="customerquotes">A great about us block helps builds trubetween
                 you customers. The more content you
                 provide you and your business</p> 
-                <h4 class="customername">Dianne russell</h4>
-                <p class="customerp">Customer</p>
+                <h4 className="customername">Dianne russell</h4>
+                <p className="customerp">Customer</p>
             </div>
         </div>
       </div>

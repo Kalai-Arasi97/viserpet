@@ -6,16 +6,14 @@ import "./BlogFirst.css"
 const BlogFirst = () => {
   return (
     <div>
-      <div class="blogdiv01">
-        <div class="blogdiv01cont">
-        <img className='blogdogbgimg'  src = {breadcumbimg}/>
-
-            {/* <img class="blogdogbgimg" src="../Assets/Img/breadcumb-img.png" alt="">  */}
+      <div className="blogdiv01">
+        <div className="blogdiv01cont">
+          <img className='blogdogbgimg'  alt='' src = {breadcumbimg}/>
         </div>
     </div>
-    <div class="blogdiv02">
-        <h1 class="blogheadh1">Blog Post</h1>
-        <p class="blogheadp"><IoHome/>Home / Blog Post</p>
+    <div className="blogdiv02">
+        <h1 className="blogheadh1">Blog Post</h1>
+        <p className="blogheadp"><IoHome/>Home / Blog Post</p>
     </div>
     </div>
   )
